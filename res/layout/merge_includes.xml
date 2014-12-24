@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".merge.MergeInclude" >
+
+    <include
+        android:id="@+id/V_IC_Orange"
+        layout="@layout/merge_orange" />
+
+    <include
+        android:id="@+id/V_IC_White"
+        layout="@layout/merge_white" />
+    
+    <include
+        android:id="@+id/V_IC_Green"
+        layout="@layout/merge_green" />
+
+</LinearLayout>

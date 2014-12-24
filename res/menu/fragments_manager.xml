@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:adityakamble49.uidemos="http://schemas.android.com/apk/res-auto" >
+    
+    
+    <item android:id="@+id/menu_one" 
+       	  android:title="@string/sOne"
+          adityakamble49.uidemos:showAsAction="always"
+        />
+    
+    <item android:id="@+id/menu_two" 
+       	  android:title="@string/sTwo"
+          adityakamble49.uidemos:showAsAction="always"
+        />
+    
+    <item android:id="@+id/menu_three" 
+       	  android:title="@string/sThree"
+          adityakamble49.uidemos:showAsAction="always"
+        />
+
+</menu>

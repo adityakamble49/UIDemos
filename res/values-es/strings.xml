@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UI Demos ES</string>
+    <string name="action_settings">Settings ES</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="sSearch">Search</string>
+    <string name="sShare">Share</string>
+    <string name="sSettings">Settings ES</string>
+    <string name="sAbout">About ES</string>
+    <string name="sDrawerOpen">Drawer Open</string>
+    <string name="sDrawerClose">Drawer Close</string>
+    <string name="sOne">1</string>
+    <string name="sTwo">2</string>
+    <string name="sThree">3</string>
+
+</resources>

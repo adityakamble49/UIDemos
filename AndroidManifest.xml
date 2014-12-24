@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="adityakamble49.uidemos"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:installLocation="preferExternal"> >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="18" />
+    
+   	<uses-permission android:name="android.permission.BLUETOOTH"/>
+   	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+   	<uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+        
+        <activity
+            android:name="adityakamble49.uidemos.HomeActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="adityakamble49.uidemos.tabs.TabsNavigation"
+            android:label="@string/app_name">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="adityakamble49.uidemos.HomeActivity"/>
+            <intent-filter>
+                <action android:name="adityakamble49.uidemos.tabs.TabsNavigation" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="adityakamble49.uidemos.drawer.NavigationDrawer"
+            android:label="@string/app_name">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="adityakamble49.uidemos.HomeActivity" />
+            <intent-filter>
+                <action android:name="adityakamble49.uidemos.drawer.NavigationDrawer" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="adityakamble49.uidemos.merge.MergeInclude"
+            android:label="@string/app_name" android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="adityakamble49.uidemos.HomeActivity" />
+            <intent-filter>
+                <action android:name="adityakamble49.uidemos.merge.MergeInclude" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="adityakamble49.uidemos.fragments.FragmentsManager"
+            android:label="@string/app_name">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="adityakamble49.uidemos.HomeActivity"/>
+            <intent-filter>
+                <action android:name="adityakamble49.uidemos.fragments.FragmentsManager" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="adityakamble49.uidemos.toast.CustomToast"
+            android:label="@string/app_name">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="adityakamble49.uidemos.HomeActivity"/>
+            <intent-filter>
+                <action android:name="adityakamble49.uidemos.toast.CustomToast" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="adityakamble49.uidemos.actionbar.CustomActionBar"
+            android:label="@string/app_name">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="adityakamble49.uidemos.HomeActivity"/>
+            <meta-data 
+                android:name="android.support.UI_OPTIONS"
+                android:value="splitActionBarWhenNarrow"/>
+            <intent-filter>
+                <action android:name="adityakamble49.uidemos.actionbar.CustomActionBar" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name="adityakamble49.uidemos.list.CustomListView"
+            android:label="@string/app_name">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="adityakamble49.uidemos.HomeActivity"/>
+            <intent-filter>
+                <action android:name="adityakamble49.uidemos.list.CustomListView" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="adityakamble49.uidemos.viewpager.ViewPagerDemo"
+            android:label="@string/app_name">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="adityakamble49.uidemos.HomeActivity"/>
+            <intent-filter>
+                <action android:name="adityakamble49.uidemos.viewpager.ViewPagerDemo" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="adityakamble49.uidemos.UIDemosPreferences"
+            android:label="@string/app_name">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="adityakamble49.uidemos.HomeActivity"/>
+            <intent-filter>
+                <action android:name="adityakamble49.uidemos.UIDemosPreferences" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="adityakamble49.uidemos.dropdown.DropDownNavigation"
+            android:label="@string/app_name">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="adityakamble49.uidemos.HomeActivity"/>
+            <intent-filter>
+                <action android:name="adityakamble49.uidemos.dropdown.DropDownNavigation" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+    </application>
+
+</manifest>

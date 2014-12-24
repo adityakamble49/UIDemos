@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+     xmlns:adityakamble49.uidemos="http://schemas.android.com/apk/res-auto">
+     
+    <item android:id="@+id/menu_change_colour" 
+        android:title="@string/sChangeColour"
+        adityakamble49.uidemos:showAsAction="always|"/>
+    
+    <item android:id="@+id/menu_toggle" 
+        android:title="@string/sToggle"/>
+    
+
+</menu>

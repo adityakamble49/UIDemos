@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UI Demos</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="sSearch">Search</string>
+    <string name="sShare">Share</string>
+    <string name="sSettings">Settings</string>
+    <string name="sAbout">About</string>
+    <string name="sDrawerOpen">Drawer Open</string>
+    <string name="sDrawerClose">Drawer Close</string>
+    <string name="sOne">1</string>
+    <string name="sTwo">2</string>
+    <string name="sThree">3</string>
+    <string name="sAlbumFragment">Albums Fragment</string>
+    <string name="sChangeColour">Change Colour</string>
+    <string name="select_colour">Select Colour</string>
+    <string-array name="colours_list">
+        <item >Red</item>
+        <item >Orange</item>
+        <item >Yellow</item>
+        <item >Green</item>
+        <item >Blue</item>
+        <item >Indigo</item>
+        <item >Violet</item>
+    </string-array>
+    <string name="about">About</string>
+    <string name="about_ui_demos">UI Demos is developed to demonstrate simple and advance android user interfaces</string>
+    <string name="actionbar_custom">ActionBar Custom</string>
+    <string name="custom_listview">Custom ListView</string>
+    <string name="sToggle">Toggle</string>
+    <string name="sCustomActionBarSubtitle">This is Custom Action Bar</string>
+    <string name="custom_toast">Custom Toast</string>
+    <string name="sViewPager">View Pager</string>
+    <string name="sToggleTab">Toggle Tab</string>
+    <string name="sToggleActionBar">Toggle ActionBar</string>
+    <string name="sName">Name</string>
+    <string name="sPreferences">Preferences</string>
+    <string name="what_is_your_name">What is Your Name</string>
+    <string name="user_details">User Details</string>
+    <string name="social_networks">Social Networks</string>
+    <string name="select_active_social_networks">Select Active Socal Networks</string>
+    <string-array name="social_networks">
+        <item >Facebook</item>
+        <item >Twitter</item>
+        <item >Google+</item>
+        <item >LinkedIn</item>
+        <item >Orkut</item>
+    </string-array>
+    <string-array name="media_types">
+        <item >Albums</item>
+        <item >Artists</item>
+        <item >Songs</item>
+        <item >Videos</item>
+    </string-array>
+
+</resources>
